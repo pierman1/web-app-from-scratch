@@ -55,7 +55,7 @@ dus bijvoorbeeld dat je geen ongedifineerde variabelen kan gebruiken.
 **Immediately-Invoked Function Expression (IIFE)**
 ```
 (function () {
-   // your code
+   
 })();
 ```
 Waarom IIFE gebruiken? 
@@ -68,3 +68,13 @@ Waarom IIFE gebruiken?
 
 - http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
 - http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+
+# Voor- en nadelen JavaScript libraries/frameworks
+
+Voordelen
+
+- stabiel 
+- gestructureerd
+- minder werk, bv. cross-browser compatibility, namespaces en core functions
+
+http://www.noupe.com/development/javascript-frameworks-94897.html
