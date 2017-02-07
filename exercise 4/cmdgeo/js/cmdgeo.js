@@ -11,8 +11,7 @@
 
 (function () {
 
-// Variable declaratio
-
+// Variable declaration
     var sandbox = "sandbox";
     var lineair = "lineair";
     var gpsAvailable = 'gpsAvailable';
