@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b9b86a0-489c-4660-961b-833178dedefe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo.js" afterPath="$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise 4/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise 4/cmdgeo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise 4/cmdgeo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo_1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise 4/cmdgeo/js/old-script/mapFunctions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise 4/cmdgeo/js/old-script/old-script.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercise 2/README.md" afterPath="$PROJECT_DIR$/exercise 2/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,38 +26,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="284">
-                <caret line="57" column="3" lean-forward="false" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise 2/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="464">
-                <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,21 +56,8 @@
         <entry file="file://$PROJECT_DIR$/exercise 3/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise 4/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -105,56 +78,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmdgeo.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo.js">
+      <file leaf-file-name="cmdgeo_1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js/cmdgeo_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="155" column="21" lean-forward="false" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#294#0" expanded="false" />
-                <element signature="e#1321#1701#0" expanded="false" />
-                <element signature="e#1364#1403#0" expanded="false" />
-                <element signature="e#1935#2028#0" expanded="false" />
-                <element signature="e#2293#2370#0" expanded="false" />
-                <element signature="e#2414#2531#0" expanded="false" />
-                <element signature="e#2581#2664#0" expanded="false" />
-                <element signature="e#2720#6225#0" expanded="false" />
-                <element signature="e#2819#3159#0" expanded="false" />
-                <element signature="e#3275#3533#0" expanded="false" />
-                <element signature="e#3658#3916#0" expanded="false" />
-                <element signature="e#4040#4257#0" expanded="false" />
-                <element signature="e#4389#5829#0" expanded="false" />
-                <element signature="e#4547#5819#0" expanded="false" />
-                <element signature="e#4750#5793#0" expanded="false" />
-                <element signature="e#4976#5763#0" expanded="false" />
-                <element signature="e#5120#5302#0" expanded="false" />
-                <element signature="e#5316#5468#0" expanded="false" />
-                <element signature="e#5930#6218#0" expanded="false" />
-                <element signature="e#6366#6984#0" expanded="false" />
-                <element signature="e#7038#9376#0" expanded="false" />
-                <element signature="e#7457#8471#0" expanded="false" />
-                <element signature="e#7589#7740#0" expanded="false" />
-                <element signature="e#7755#7867#0" expanded="false" />
-                <element signature="e#8090#8171#0" expanded="false" />
-                <element signature="e#8280#8455#0" expanded="false" />
-                <element signature="e#8508#8924#0" expanded="false" />
-                <element signature="e#8666#8907#0" expanded="false" />
-                <element signature="e#9036#9205#0" expanded="false" />
-                <element signature="e#9411#9479#0" expanded="false" />
-                <element signature="e#9523#9793#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="old-script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/modules/old-script.js">
+        <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js/old-script/old-script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-              <folding>
-                <element signature="e#7782#7832#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -184,8 +159,27 @@
       <find>refresh_raterefre</find>
       <find>locatieRij</find>
       <find>locatie</find>
-      <find>google</find>
       <find>number</find>
+      <find>google</find>
+      <find>debugId</find>
+      <find>sandbox</find>
+      <find>gps</find>
+      <find>available</find>
+      <find>gps_available</find>
+      <find>position</find>
+      <find>updated</find>
+      <find>refresh</find>
+      <find>linear</find>
+      <find>ineair</find>
+      <find>lineair</find>
+      <find>gpsAvailable</find>
+      <find>gpsAvailabl</find>
+      <find>gpsUnavailable</find>
+      <find>positionUpdated</find>
+      <find>refreshRate</find>
+      <find>currentPosition</find>
+      <find>customDebugging</find>
+      <find>console</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -205,13 +199,17 @@
         <option value="$PROJECT_DIR$/cmdgeo/README.md" />
         <option value="$PROJECT_DIR$/cmdgeo/js/modules/mapFunctions.js" />
         <option value="$PROJECT_DIR$/cmdgeo/js/cmdgeo.js" />
-        <option value="$PROJECT_DIR$/exercise 2/README.md" />
         <option value="$PROJECT_DIR$/exercise 1/README.md" />
         <option value="$PROJECT_DIR$/exercise 3/README.md" />
         <option value="$PROJECT_DIR$/.editorconfig" />
         <option value="$PROJECT_DIR$/exercise 4/cmdgeo/js/modules/old script" />
         <option value="$PROJECT_DIR$/exercise 4/cmdgeo/js/modules/old-script.js" />
+        <option value="$PROJECT_DIR$/exercise 4/cmdgeo/README.md" />
         <option value="$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo.js" />
+        <option value="$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo_1.js" />
+        <option value="$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/index.html" />
+        <option value="$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js/cmdgeo_1.js" />
+        <option value="$PROJECT_DIR$/exercise 2/README.md" />
       </list>
     </option>
   </component>
@@ -223,10 +221,27 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
+    <option name="x" value="6" />
     <option name="y" value="23" />
-    <option name="width" value="1428" />
+    <option name="width" value="1434" />
     <option name="height" value="827" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -280,7 +295,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exercise 4" />
+              <option name="myItemId" value="exercise 4 - CMDgeo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,7 +309,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exercise 4" />
+              <option name="myItemId" value="exercise 4 - CMDgeo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -312,29 +327,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exercise 4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmdgeo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app-from-scratch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app-from-scratch" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise 4" />
+              <option name="myItemId" value="exercise 4 - CMDgeo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,8 +338,30 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="web-app-from-scratch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app-from-scratch" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise 4 - CMDgeo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdgeo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="old-script" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,20 +413,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Less" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/exercise 4" />
       <recent name="$PROJECT_DIR$/cmdgeo/js" />
       <recent name="$PROJECT_DIR$/cmdgeo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.cmdgeo_1.js">
+    <configuration default="false" name="cmdgeo_1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="cmdgeo_1.js" working-dir="$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js">
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -468,6 +489,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.cmdgeo_1.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.cmdgeo_1.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -481,34 +510,34 @@
       <updated>1486393724833</updated>
       <workItem from="1486393726248" duration="8711000" />
       <workItem from="1486414775618" duration="349000" />
-      <workItem from="1486461580682" duration="11027000" />
+      <workItem from="1486461580682" duration="22490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20087000" />
+    <option name="totallyTimeSpent" value="31550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1428" height="827" extended-state="0" />
+    <frame x="6" y="23" width="1434" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15266107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15202232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -520,7 +549,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -536,43 +565,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo.js">
+    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#294#0" expanded="false" />
-            <element signature="e#1321#1701#0" expanded="false" />
-            <element signature="e#1364#1403#0" expanded="false" />
-            <element signature="e#1935#2028#0" expanded="false" />
-            <element signature="e#2293#2370#0" expanded="false" />
-            <element signature="e#2414#2531#0" expanded="false" />
-            <element signature="e#2581#2664#0" expanded="false" />
-            <element signature="e#2720#6225#0" expanded="false" />
-            <element signature="e#2819#3159#0" expanded="false" />
-            <element signature="e#3275#3533#0" expanded="false" />
-            <element signature="e#3658#3916#0" expanded="false" />
-            <element signature="e#4040#4257#0" expanded="false" />
-            <element signature="e#4389#5829#0" expanded="false" />
-            <element signature="e#4547#5819#0" expanded="false" />
-            <element signature="e#4750#5793#0" expanded="false" />
-            <element signature="e#4976#5763#0" expanded="false" />
-            <element signature="e#5120#5302#0" expanded="false" />
-            <element signature="e#5316#5468#0" expanded="false" />
-            <element signature="e#5930#6218#0" expanded="false" />
-            <element signature="e#6366#6984#0" expanded="false" />
-            <element signature="e#7038#9376#0" expanded="false" />
-            <element signature="e#7457#8471#0" expanded="false" />
-            <element signature="e#7589#7740#0" expanded="false" />
-            <element signature="e#7755#7867#0" expanded="false" />
-            <element signature="e#8090#8171#0" expanded="false" />
-            <element signature="e#8280#8455#0" expanded="false" />
-            <element signature="e#8508#8924#0" expanded="false" />
-            <element signature="e#8666#8907#0" expanded="false" />
-            <element signature="e#9036#9205#0" expanded="false" />
-            <element signature="e#9411#9479#0" expanded="false" />
-            <element signature="e#9523#9793#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -606,43 +603,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo.js">
+    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#294#0" expanded="false" />
-            <element signature="e#1321#1701#0" expanded="false" />
-            <element signature="e#1364#1403#0" expanded="false" />
-            <element signature="e#1935#2028#0" expanded="false" />
-            <element signature="e#2293#2370#0" expanded="false" />
-            <element signature="e#2414#2531#0" expanded="false" />
-            <element signature="e#2581#2664#0" expanded="false" />
-            <element signature="e#2720#6225#0" expanded="false" />
-            <element signature="e#2819#3159#0" expanded="false" />
-            <element signature="e#3275#3533#0" expanded="false" />
-            <element signature="e#3658#3916#0" expanded="false" />
-            <element signature="e#4040#4257#0" expanded="false" />
-            <element signature="e#4389#5829#0" expanded="false" />
-            <element signature="e#4547#5819#0" expanded="false" />
-            <element signature="e#4750#5793#0" expanded="false" />
-            <element signature="e#4976#5763#0" expanded="false" />
-            <element signature="e#5120#5302#0" expanded="false" />
-            <element signature="e#5316#5468#0" expanded="false" />
-            <element signature="e#5930#6218#0" expanded="false" />
-            <element signature="e#6366#6984#0" expanded="false" />
-            <element signature="e#7038#9376#0" expanded="false" />
-            <element signature="e#7457#8471#0" expanded="false" />
-            <element signature="e#7589#7740#0" expanded="false" />
-            <element signature="e#7755#7867#0" expanded="false" />
-            <element signature="e#8090#8171#0" expanded="false" />
-            <element signature="e#8280#8455#0" expanded="false" />
-            <element signature="e#8508#8924#0" expanded="false" />
-            <element signature="e#8666#8907#0" expanded="false" />
-            <element signature="e#9036#9205#0" expanded="false" />
-            <element signature="e#9411#9479#0" expanded="false" />
-            <element signature="e#9523#9793#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,25 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/modules/mapFunctions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -689,28 +635,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 5/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -741,21 +665,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/modules/old-script.js">
+    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/old-script/old-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding>
-            <element signature="e#7782#7832#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/old-script/mapFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 5/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js/cmdgeo_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js/old-script/old-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/js/cmdgeo_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 4 - CMDgeo/cmdgeo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise 3/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />
@@ -765,51 +790,11 @@
     <entry file="file://$PROJECT_DIR$/exercise 2/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="464">
-            <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 4/cmdgeo/js/cmdgeo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="155" column="21" lean-forward="false" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#294#0" expanded="false" />
-            <element signature="e#1321#1701#0" expanded="false" />
-            <element signature="e#1364#1403#0" expanded="false" />
-            <element signature="e#1935#2028#0" expanded="false" />
-            <element signature="e#2293#2370#0" expanded="false" />
-            <element signature="e#2414#2531#0" expanded="false" />
-            <element signature="e#2581#2664#0" expanded="false" />
-            <element signature="e#2720#6225#0" expanded="false" />
-            <element signature="e#2819#3159#0" expanded="false" />
-            <element signature="e#3275#3533#0" expanded="false" />
-            <element signature="e#3658#3916#0" expanded="false" />
-            <element signature="e#4040#4257#0" expanded="false" />
-            <element signature="e#4389#5829#0" expanded="false" />
-            <element signature="e#4547#5819#0" expanded="false" />
-            <element signature="e#4750#5793#0" expanded="false" />
-            <element signature="e#4976#5763#0" expanded="false" />
-            <element signature="e#5120#5302#0" expanded="false" />
-            <element signature="e#5316#5468#0" expanded="false" />
-            <element signature="e#5930#6218#0" expanded="false" />
-            <element signature="e#6366#6984#0" expanded="false" />
-            <element signature="e#7038#9376#0" expanded="false" />
-            <element signature="e#7457#8471#0" expanded="false" />
-            <element signature="e#7589#7740#0" expanded="false" />
-            <element signature="e#7755#7867#0" expanded="false" />
-            <element signature="e#8090#8171#0" expanded="false" />
-            <element signature="e#8280#8455#0" expanded="false" />
-            <element signature="e#8508#8924#0" expanded="false" />
-            <element signature="e#8666#8907#0" expanded="false" />
-            <element signature="e#9036#9205#0" expanded="false" />
-            <element signature="e#9411#9479#0" expanded="false" />
-            <element signature="e#9523#9793#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -11,20 +11,30 @@
 
 (function () {
 
-// Variable declaration
-    var sandbox = "sandbox";
-    var lineair = "lineair";
-    var gpsAvailable = 'gpsAvailable';
-    var gpsUnavailable = 'gpsUnavailable';
-    var positionUpdated = 'positionUpdated';
-    var refreshRate = 1000;
-    var currentPosition = currentPositionMarker = customDebugging = debugId = map = interval =intervalCounter = updateMap = false;
-    var locatieRij = markerRij = [];
+    // Object met variables
+    var configs = {
+        sandbox: "sandbox",
+        lineair: "lineair",
+        gpsAvailable: "gpsAvailable",
+        gpsUnavailable: "gpsUnavilable",
+        positionUpdated: "positionUpdated",
+        refreshRate: 1000,
+        currentPosition: false,
+        currentPositionMarker: false,
+        customDebugging: false,
+        debugId: false,
+        map: false,
+        interval: false,
+        intervalCounter: false,
+        updateMap: false,
+        locatieRij: this.markerRij,
+        markerRij: []
+    }
 
-// Event functies - bron: http://www.nczonline.net/blog/2010/03/09/custom-events-in-javascript/ Copyright (c) 2010 Nicholas C. Zakas. All rights reserved. MIT License
-// Gebruik: ET.addListener('foo', handleEvent); ET.fire('event_name'); ET.removeListener('foo', handleEvent);
+    // Event functies - bron: http://www.nczonline.net/blog/2010/03/09/custom-events-in-javascript/ Copyright (c) 2010 Nicholas C. Zakas. All rights reserved. MIT License
+    // Gebruik: ET.addListener('foo', handleEvent); ET.fire('event_name'); ET.removeListener('foo', handleEvent);
     function EventTarget() {
-        this._listeners = {}
+        this._listeners = {};
     }
 
     EventTarget.prototype = {
@@ -43,23 +53,14 @@
                 for (var c = this._listeners[a.type], b = 0, d = c.length; b < d; b++) c[b].call(this, a)
         },
         removeListener: function(a, c) {
-            if (this._listeners[a] instanceof Array)
-                for (var b =
-                    this._listeners[a], d = 0, e = b.length; d < e; d++)
-                    if (b[d] === c) {
-                        b.splice(d, 1);
-                        break
-                    }
+            if (this._listeners[a] instanceof Array) {for (var b = this._listeners[a], d = 0, e = b.length; d < e; d++) {if (b[d] === c) {
+                b.splice(d, 1);
+                break
+            }}}
         }
     };
 
     var ET = new EventTarget();
-
-    customDebuggin => (param1){
-        console.log(param1);
-    }
-
-    customDebuggin('testeroni');
 
     // Object met functies voor debugging
     var debug = {
@@ -69,16 +70,16 @@
         },
 
         debugMessage: function (message) {
-            (customDebugging && debugId)?document.getElementById(debugId).innerHTML:console.log(message);
+            (configs.setCustomDebugging && configs.debugId)?document.getElementById(debugId).innerHTML:console.log(message);
         },
 
         setCustomDebugging: function (debugId) {
             debugId = this.debugId;
-            customDebugging = true;
+            config.customDebugging = true;
         }
     }
 
-    console.log(debug);
+    console.log(debug.geoErrorHandler);
 
     var mapFunctions = {
 
@@ -86,10 +87,10 @@
         init: function(){
             debug.debugMessage("Controleer of GPS beschikbaar is...");
 
-            ET.addListener(gps_available, this.startInterval());
-            ET.addListener(gps_unavailable, function(){debug.debugMessage('GPS is niet beschikbaar.')});
+            ET.addListener(config.gpsAvailable, this.startInterval());
+            ET.addListener(config.gpsUnavailable, function(){debug.debugMessage('GPS is niet beschikbaar.')});
 
-            (geo_position_js.init())?ET.fire(gps_available):ET.fire(gps_unavailable);
+            (geo_position_js.init())?ET.fire(config.gpsAvailable):ET.fire(gps_unavailable);
         },
 
         // Start een interval welke op basis van refreshRate de positie updated
@@ -97,21 +98,21 @@
             debug.debugMessage("GPS is beschikbaar, vraag positie.");
             this.updatePosition();
             interval = self.setInterval(this.updatePosition, refreshRate);
-            ET.addListener(position_updated, this.checkLocations);
+            ET.addListener(config.positionUpdated, this.checkLocations);
         },
 
         // Vraag de huidige positie aan geo.js, stel een callback in voor het resultaat
         updatePosition: function(){
             debug.debugMessage("GPS is beschikbaar, vraag positie.");
             this.updatePosition();
-            interval = self.setInterval(this.updatePosition, refreshRate);
-            ET.addListener(position_updated, this.checkLocations);
+            interval = self.setInterval(this.updatePosition, config.refreshRate);
+            ET.addListener(config.positionUpdated, this.checkLocations);
         },
 
         // Callback functie voor het instellen van de huidige positie, vuurt een event af
         setPosition: function(){
             currentPosition = position;
-            ET.fire("position_updated");
+            ET.fire("positionUpdated");
             debug.debugMessage(intervalCounter+" positie lat:"+position.coords.latitude+" long:"+position.coords.longitude);
         },
 
@@ -155,7 +156,7 @@
     // Object met functies voor googleMaps
     var googleMaps = {
 
-        // GOOGLE MAPS FUNCTIES
+        // Google Maps functies
         /**
          * generate_map(myOptions, canvasId)
          *  roept op basis van meegegeven opties de google maps API aan
@@ -202,7 +203,7 @@
                 });
             }
 
-            if(tourType == LINEAIR){
+            if(tourType == config.lineair){
                 // Trek lijnen tussen de punten
                 debug.debugMessage("Route intekenen");
                 var route = new google.maps.Polyline({
@@ -224,8 +225,8 @@
                 title: 'U bevindt zich hier'
             });
 
-            // Zorg dat de kaart geupdated wordt als het position_updated event afgevuurd wordt
-            ET.addListener(position_updated, update_positie);
+            // Zorg dat de kaart geupdated wordt als het positionUpdated event afgevuurd wordt
+            ET.addListener(config.positionUpdated, update_positie);
         },
 
         isNumber : function (n) {
