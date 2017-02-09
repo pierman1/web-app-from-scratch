@@ -78,3 +78,32 @@ Voordelen
 - minder werk, bv. cross-browser compatibility, namespaces en core functions
 
 http://www.noupe.com/development/javascript-frameworks-94897.html
+
+## Aantekeningen les 2
+
+**Object literal pattern**
+
+// functie scope
+(function () {
+ var person = {
+    // property
+    name: 'jane doe',
+    //method
+    speak: function () {
+        console.log('Hello, my name is' + this.name);
+    }
+    
+    
+)
+
+**Global Scope**
+
+Window = Object
+
+in Node.js
+
+Object
+
+**Function scope**, alles wat hierin gedefinieerd is kan alleen binnen deze scope bereikt worden.
+
+

@@ -65,6 +65,10 @@
     // Object met functies voor debugging
     var debug = {
 
+        tryout: (function () {
+            console.log('hello world');
+        })(),
+
         geoErrorHandler: function (code, message) {
             this.debugMessage('geo.js error '+code+': '+message);
         },
@@ -78,6 +82,14 @@
             config.customDebugging = true;
         }
     }
+
+    var ttry = {
+        try: (function () {
+            console.log(this);
+        })()
+    };
+
+    console.log(ttry.try);
 
     console.log(debug.geoErrorHandler);
 

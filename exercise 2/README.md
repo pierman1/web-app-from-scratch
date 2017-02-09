@@ -7,32 +7,34 @@ Een framework is bedoeld om de lastige veel voorkomende taken geassocieerd met w
 
 
 ###Nadelen:
-- meer aanvragen bij de server, meer data om op te halen, gevolg is negatieve invloed op laadtijd
+- Je doet meer aanvragen bij de server, meer data om op te halen, gevolg is negatieve invloed op laadtijd
 - Je leert het framework, maar je leert niet de taal. Omdat je jQuery kent, ben je niet bekend met hoe javascript werkt.
 - Beperkingen. De core van het framework staat vast en kan niet worden aangepast. Dit betekent dat een framework beperkingen heeft en je hier rekening mee moet houden.
 - Frameworks/libraries bevatten stukken code die niet zal worden gebruikt. 
 - Bij het gebruik van framework/libraries zijn er altijd stukken code die je niet gebruikt, de kunst is om zo veel mogelijk efficiente code te schrijven.
+
 ###Voordelen: 
-- Lost (voor een groot deel) cross-browser problemen op (jQuery) (1)
-- Efficiëntie: door pre-build functions kunnen bepaalde taken (die normaal uren duren) in enkele minuten worden gemaakt. Developen wordt makkelijker, makkelijker betekent sneller, sneller betekent efficiënter. (3)
-- Veiligheid: een veel gebruikt framework heeft veel beveilig implementatie’s. Het voordeel is de community achter het framework. (3)
-- Kosten: de meeste populair frameworks zijn gratis. Aangezien het helpt om sneller te coderen kan het ook kosten besparen op het proces. (3)
-- Meer doen met minder code (5)
+- Bijvoorbeeld jQuery lost cross-browser problemen op
+- Efficiëntie: door pre-build functions kunnen bepaalde taken (die normaal uren duren) in enkele minuten worden gemaakt. Developen wordt makkelijker, makkelijker betekent sneller, sneller betekent efficiënter.
+- Veiligheid: een veel gebruikt framework heeft veel beveilig implementatie’s. Het voordeel is de community achter het framework.
+- Kosten: de meeste populair frameworks zijn gratis. Het kan dus ook kosten sparen omdat het je kan helpen sneller te coden.
+- Meer kunnen met minder code
 
 
-Waarom geen jQuery?: wanneer je jQuery kent betekent dit niet dat je javascript doorgrond (3)
+> Waarom geen jQuery?: wanneer je jQuery kent betekent dit niet dat je javascript doorgrond.
 
-Coderen in pure JS (Vanilla) helpt de complexiteit van het probleem en de oplossing, te begrijpen omdat je alles zelf schrijft.(4)
-
+> Coderen in pure JS (Vanilla) helpt je de complexiteit van het probleem en de oplossing, te begrijpen omdat je alles zelf schrijft.
 
 Bronnen: 
 
-1. Why choosing vanilla javascript - http://alistapart.com/blog/post/choosing-vanilla-javascript
+- https://www.ampower.me/article/JavaScript/JS-Frameworks-Pros-Cons-89-389167
 
-2. You might not need jQuery - http://youmightnotneedjquery.com/
+- http://alistapart.com/blog/post/choosing-vanilla-javascript
 
-3. Pro’s and Con’s of using frameworks - http://1stwebdesigner.com/pros-cons-frameworks/
+- http://youmightnotneedjquery.com/
 
-4. Why all those Javascript libraries? - http://blog.pluralsight.com/why-all-those-javascript-libraries
+- http://1stwebdesigner.com/pros-cons-frameworks/
 
-5. Six reasons to use javascript libraries / frameworks - https://davidwalsh.name/6-reasons-to-use-javascript-libraries-frameworks
+- http://blog.pluralsight.com/why-all-those-javascript-libraries
+
+- https://davidwalsh.name/6-reasons-to-use-javascript-libraries-frameworks
