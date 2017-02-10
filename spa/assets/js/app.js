@@ -2,7 +2,6 @@
 (function() {
     "use strict";
     var sections_s = document.querySelectorAll('section:not(:first-child)');
-    // iffe
     (function () {
         for (var i = 1; i < sections_s.length; i++) {
             sections_s[i].classList.add('hidden');

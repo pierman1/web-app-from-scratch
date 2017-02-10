@@ -59,11 +59,11 @@ section {
 }
 
 [id="start"] {
-
+ background-color: aqua;
 }
 
 [id="best-practices"] {
-
+    background-color: aliceblue;
 }
 
 [id="nav"] {
