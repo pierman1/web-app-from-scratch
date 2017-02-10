@@ -45,7 +45,6 @@
             var sectionList = document.querySelectorAll("section");
 
             sectionList.forEach(function (sec) {
-                console.log(sec.id);
                 if (location.hash === "#" + sec.id) {
                     sec.classList.remove("hidden");
                 } else {
