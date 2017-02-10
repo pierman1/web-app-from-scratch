@@ -2,6 +2,15 @@
 
 Hier zijn mijn werkzaamheden en aantekingen van het vak WAFS.
 
+# Opdracht 5
+
+Opdracht 5 van het vak Web App From Scratch. Maak een Single Page web-app.
+
+link: https://pierman1.github.io/web-app-from-scratch/spa/index.html#best-practices
+
+short Url: http://goo.gl/WwfA55
+
+
 ## Week 1: Aantekeningen.
 
 - *Object: An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.* 
