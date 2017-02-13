@@ -1,6 +1,6 @@
 # Web-App-from-scratch
 
-Hier zijn mijn werkzaamheden en aantekingen van het vak WAFS.
+Hier zijn mijn werkzaamheden en aantekeningen van het vak WAFS te vinden.
 
 # Opdracht 5
 

@@ -1,14 +1,9 @@
 // IFFE
 (function() {
+    // use the Strict mode
     "use strict";
 
-    // var sections_s = document.querySelectorAll('section:not(:first-child)');
-    // (function () {
-    //     for (var i = 1; i < sections_s.length; i++) {
-    //         sections_s[i].classList.add('hidden');
-    //     }
-    // })();
-
+    // App object
     var app = {
         init: function() {
             routes.init();
@@ -16,14 +11,20 @@
         }
     };
 
+    // Routes object
     var routes = {
         init: function(){
+            // Get hash
             var location = window.location;
             var oldHash = location.hash;
             var newHash = oldHash;
+
+            // When hash is empty show default section
             if(!newHash) {
-                newHash = '#home';
+                newHash = '#startScreen';
             }
+
+            // On hash change function
             window.onhashchange = function(){
                 oldHash = newHash;
                 newHash = location.hash;
@@ -38,8 +39,10 @@
         }
     };
 
+    // Sections Object
     var sections = {
-        notFirstChild: document.querySelectorAll('section:not(:first-child'),
+        // notFirstChild: document.querySelectorAll('section:not(:first-child'),
+
         toggle: function (route) {
             // Credits to Dave Bitter
             var sectionList = document.querySelectorAll("section");
@@ -52,11 +55,13 @@
                 }
             });
         },
-        remove: function() {
-            for (var i = 0; i < sections.notFirstChild.add('hidden');
-        }
-    }
 
+        // remove: function() {
+        //     for (var i = 0; i < sections.notFirstChild.add('hidden');
+        // }
+    }
+    // sections.remove();
+    // Run App init - method
     app.init();
 
 }());

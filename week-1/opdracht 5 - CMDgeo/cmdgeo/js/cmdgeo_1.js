@@ -28,7 +28,8 @@
         intervalCounter: false,
         updateMap: false,
         locatieRij: this.markerRij,
-        markerRij: []
+        markerRij: [],
+        ET: new EventTarget();
     }
 
     // Event functies - bron: http://www.nczonline.net/blog/2010/03/09/custom-events-in-javascript/ Copyright (c) 2010 Nicholas C. Zakas. All rights reserved. MIT License
@@ -60,8 +61,6 @@
         }
     };
 
-    var ET = new EventTarget();
-
     // Object met functies voor debugging
     var debug = {
 
@@ -82,14 +81,6 @@
             config.customDebugging = true;
         }
     }
-
-    var ttry = {
-        try: (function () {
-            console.log(this);
-        })()
-    };
-
-    console.log(ttry.try);
 
     console.log(debug.geoErrorHandler);
 
@@ -241,10 +232,6 @@
             ET.addListener(config.positionUpdated, update_positie);
         },
 
-        isNumber : function (n) {
-            return !isNaN(parseFloat(n)) && isFinite(n);
-        },
-
         updatePosition: function (event) {
             // use currentPosition to center the map
             var newPos = new google.maps.LatLng(currentPosition.coords.latitude, currentPosition.coords.longitude);
@@ -255,6 +242,13 @@
 
     console.log(googleMaps);
 
+    var utils = {
+        isNumber : function (n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
+        }
+    }
+
+    console.log(utils);
 
 })();
 
