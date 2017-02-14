@@ -53,10 +53,6 @@
             // by hash get active Section
             var activeSection = document.getElementById(route);
 
-            // log all Sections
-            // console.log(allSections);
-
-
             // Loop through all Sections
             for (var i=0; i < allSections.length; i++) {
 

@@ -35,6 +35,13 @@
                     // console.log(hashName);
                     sections.toggle(hashName);
                     showPictures.getData();
+                },
+                '1276857006242798832_2203311158' : function () {
+                    // get path name and fire sections.toggle() to show section
+                    var hashName = this.path;
+                    // console.log(hashName);
+                    sections.toggle(hashName);
+                    showPictures.getData();
                 }
             });
 
@@ -48,7 +55,6 @@
             var nav = document.getElementById('picture-nav');
 
             var routeSection = document.createElement('section');
-
 
             var routeNavItem = document.createElement('a');
             routeNavItem.innerHTML = titel;

@@ -1,7 +1,3 @@
-# Web-App-from-scratch
-
-Hier zijn mijn werkzaamheden en aantekeningen van het vak WAFS te vinden.
-
 # Opdracht 5
 
 Opdracht 5 van het vak Web App From Scratch. Maak een Single Page web-app.
