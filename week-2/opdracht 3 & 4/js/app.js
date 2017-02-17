@@ -198,7 +198,7 @@
             }
 
             activeSection.classList.toggle('hidden');
-        },
+        }
     }
     
 
