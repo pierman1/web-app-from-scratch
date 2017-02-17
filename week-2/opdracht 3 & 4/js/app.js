@@ -2,6 +2,7 @@
     // Structures
     var app = {
         init: function () {
+            // Fire routes.init();
             routes.init();
         }
     }
@@ -16,7 +17,7 @@
                 'strains' : function () {
                     // get path name and fire sections.toggle() to show section
                     var hashName = this.path;
-
+                    //  get strainList data
                     strainsList.getData();
                     sections.toggle(hashName);
                 },
@@ -24,14 +25,13 @@
                 'about' : function () {
                     // get path name and fire sections.toggle() to show section
                     var hashName = this.path;
-
                     sections.toggle(hashName);
                 },
 
                 'strains/:id' : function (strainId) {
                     // get path name and fire sections.toggle() to show section
                     var hashName = this.path;
-
+                    // get StrainDtail data
                     strainDetail.getData(strainId);
                     sections.toggle('strain-detail');
                 }
@@ -42,7 +42,7 @@
     var strainDetail = {
 
         getData: function (strainId) {
-
+            // call data
             aja()
                 .url('https://www.cannabisreports.com/api/v1.0/strains/' + strainId + '?=972ea5f706ca0dc6dbe17db99a834085804ee594')
                 .cache(false)
@@ -57,12 +57,11 @@
                 .go();
 
         },
-
+        // render Data
         renderData: function (strainDetailData) {
 
             var strain = document.querySelector('#strain-detail');
 
-            // console.log(strainDetailData.lineage.length);
             var directives = {
 
                 strainImage: {
@@ -97,8 +96,6 @@
             var lineage = strainDetailData.lineage;
             console.log(lineage);
             var country = Object.keys(lineage);
-            // console.log(country[0]);
-            // console.log(country[1]);
             for (var prop in lineage) {
                 console.log(lineage[prop]);
 

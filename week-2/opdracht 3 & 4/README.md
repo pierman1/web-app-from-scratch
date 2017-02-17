@@ -16,6 +16,11 @@ Ik maak gebruik van de volgende Micro Libraries:
 
 Het resultaat is te zien op: https://goo.gl/5wvk5P
 
+#### To Do: 
+
+- Strain search integreren
+- Reviews integreren
+
 
 
  
