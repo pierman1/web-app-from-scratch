@@ -14,7 +14,7 @@ Ik maak gebruik van de volgende Micro Libraries:
 - routie.js     ---> Router
 - transparancy.js ---> Templating engine
 
-Het resultaat is te zien op: https://goo.gl/0M5gSA
+Het resultaat is te zien op: https://goo.gl/5wvk5P
 
 
 
