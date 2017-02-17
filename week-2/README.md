@@ -11,7 +11,5 @@ Resultaat: https://goo.gl/bqlk9N
 
 #### Opdracht 3, 4:
 
-Resultaat: 
-
-#### Opdracht 4:
+Resultaat: https://goo.gl/0M5gSA
 
