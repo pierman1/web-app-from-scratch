@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px|Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+body {
+  background-color: #333540;
+  margin: 0;
+  padding: 0;
+  color: #E7E7EB;
+  font-family: 'Source Sans', sans-serif;
+  background-image: url("../img/bong.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100vh; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Inconsolata', serif;
+  color: #E8946F; }
+
+header {
+  color: #ffffff;
+  padding: 1rem;
+  background-repeat: no-repeat; }
+
+img {
+  width: 100%; }
+
+nav {
+  width: 100%;
+  position: relative;
+  z-index: 2; }
+  nav ul {
+    display: flex; }
+  nav a {
+    color: #fff; }
+    nav a:active, nav a :focus {
+      text-decoration: underline; }
+
+.hidden {
+  display: none; }
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: #fff; }
+  ul li, ol li {
+    padding: 1rem; }
+    ul li a, ol li a {
+      text-decoration: none;
+      color: #fff; }
+      ul li a p, ol li a p {
+        font-weight: 600; }
+
+.header__logo {
+  border-bottom: 3px solid white;
+  box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+  width: max-content;
+  text-transform: uppercase; }
+  .header__logo:after {
+    content: '';
+    background-image: url("../img/bong-white.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: .8rem;
+    height: 1.4rem;
+    display: inline-block;
+    margin-left: .5rem; }
+
+p {
+  padding: 0;
+  line-height: 1.5;
+  font-weight: 200; }
+
+.main-container {
+  max-width: 35rem;
+  padding: 1rem;
+  margin: 0 auto; }
+  .main-container h2 {
+    border-bottom: 2px solid #A6B0DD;
+    width: max-content; }
+
+.strains-list {
+  display: flex;
+  flex-wrap: wrap; }
+  .strains-list li {
+    padding: .5rem 1rem;
+    border: .2rem solid #fff;
+    justify-content: space-between;
+    tranistion: .3s; }
+    .strains-list li:hover {
+      background-color: #fff; }
+      .strains-list li:hover a {
+        color: #333540; }
+
+.footer {
+  font-size: .6rem;
+  text-align: center;
+  opacity: .5;
+  transition: .3s; }
+  .footer:hover {
+    opacity: 1; }
+
+#flag-list img {
+  max-width: 128px; }
+  #flag-list img:after {
+    content: '>';
+    display: inline-block; }
