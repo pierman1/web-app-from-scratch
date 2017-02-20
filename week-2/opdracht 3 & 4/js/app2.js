@@ -7,9 +7,10 @@
         init: function () {
             // Fire routes.init();
             routes.init();
+            search.userInput();
         }
     }
-    
+
     var routes = {
         init: function () {
             // set hash to #user-search
@@ -28,6 +29,14 @@
                     var hashName = this.path;
                     //  get strainList data
                     strainsList.getData();
+                    sections.toggle(hashName);
+                },
+
+                'search' : function () {
+                    // get path name and fire sections.toggle() to show section
+                    var hashName = this.path;
+                    //  get strainList data
+                    // strainsList.getData();
                     sections.toggle(hashName);
                 },
 
@@ -105,9 +114,9 @@
                 var flagList = document.querySelector('#flag-list');
                 var countryId = lineage[prop];
 
-                    var flag = document.createElement('img');
-                    flag.src = 'img/flags/' + countryId + '-128.png';
-                    document.getElementById('flag-list').appendChild(flag);
+                var flag = document.createElement('img');
+                flag.src = 'img/flags/' + countryId + '-128.png';
+                document.getElementById('flag-list').appendChild(flag);
 
             }
         }
@@ -143,6 +152,7 @@
 
                 // Go! Aja!
                 .go();
+
         },
 
         renderData: function(strainsListData) {
@@ -169,22 +179,56 @@
             }
 
             Transparency.render(strains, strainsListData, directives);
-
-
+            strainsList.toggle(strainsListData);
         },
 
-        list: function () {
-            var strainsList = localStorage.getItem('data');
-            console.log(strainsList);
-        },
+        toggle: function (strainsListData) {
+            var nextButton = document.querySelector('.next');
+            var currentPage = 1;
 
-        item: function () {
-            var strainsItem = localStorage.getItem('data');
+            nextButton.addEventListener("click", function() {
+                var nextPage = currentPage + 1;
+                pagination.getData(nextPage);
+                console.log(nextPage);
+            });
+        }
+    }
+
+    var pagination = {
+        getData: function (nextPage) {
+            aja()
+                .url('https://www.cannabisreports.com/api/v1.0/strains?page=' + nextPage)
+                // .url('./data/strains-data.json')
+                .type('jsonp')
+                .cache('false')
+                .on('success', function(data){
+
+                    // store data local as string (default is Object)
+                    // localStorage.data = JSON.stringify(data);
+
+                    var rawData = data.data;
+
+                    // console.log("Data = " + rawData);
+                    var strainsListData = _.map(data.data, function(strain){
+                        return _.pick(strain, 'ucpc', 'name');
+                    });
+
+                    console.log(rawData);
+
+                    strainsList.renderData(strainsListData);
+                    // console.log(strainsListData);
+                })
+                .on('error', function () {
+                    console.log('error!');
+                })
+
+                // Go! Aja!
+                .go();
         }
     }
 
     var sections = {
-        toggle: function (hashName) {
+        toggle: function (hashName, searchSection) {
 
             // get all sections and the active section by var hashName
             var allSections = document.querySelectorAll('section');
@@ -201,6 +245,60 @@
             }
 
             activeSection.classList.toggle('hidden');
+
+            // search section variables
+            document.querySelector('button[class="next"]').classList.remove('hidden');
+
+            // if searchSection remove class hidden
+            if(searchSection) {
+                var searchSection = document.getElementById(searchSection);
+                searchSection.classList.remove('hidden');
+            }
+        }
+    }
+
+    var search = {
+        userInput: function () {
+            var inputButton = document.querySelector('input[type="button"]');
+
+            inputButton.addEventListener('click', function() {
+                var inputValue = document.querySelector('input[type="text"]').value;
+                console.log(inputValue);
+                search.getData(inputValue);
+
+                sections.toggle('strains', 'search');
+            });
+        },
+
+        getData: function (inputValue) {
+            aja()
+                .url('https://www.cannabisreports.com/api/v1.0/strains/search/' + inputValue)
+                // .url('./data/strains-data.json')
+                .type('jsonp')
+                .cache('false')
+                .on('success', function(data){
+
+                    // store data local as string (default is Object)
+                    // localStorage.data = JSON.stringify(data);
+
+                    var rawData = data.data;
+
+                    // console.log("Data = " + rawData);
+                    var strainsListData = _.map(data.data, function(strain){
+                        return _.pick(strain, 'ucpc', 'name');
+                    });
+
+                        strainsList.renderData(strainsListData);
+
+
+                    // console.log(strainsListData);
+                })
+                .on('error', function () {
+                    console.log('error!');
+                })
+
+                // Go! Aja!
+                .go();
         }
     }
 

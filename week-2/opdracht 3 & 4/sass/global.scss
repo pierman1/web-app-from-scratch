@@ -19,6 +19,7 @@ body {
 h1,h2,h3,h4,h5 {
   font-family: 'Inconsolata', serif;
   color: #E8946F;
+  margin: 0;
 }
 
 header {
@@ -35,8 +36,13 @@ nav {
   width: 100%;
   position: relative;
   z-index: 2;
+
   ul {
     display: flex;
+
+    li {
+      text-decoration: underline;
+    }
   }
 
   a {
@@ -87,7 +93,6 @@ ul, ol {
   //padding: .5rem 1rem;
   //max-width: 12rem;
   //margin: 0 auto;
-  margin-bottom: 1rem;
   position: relative;
   z-index: 2;
   width: max-content;
@@ -121,6 +126,7 @@ p {
   h2 {
     border-bottom: 2px solid #A6B0DD;
     width: max-content;
+    margin-bottom: 1rem;
   }
 }
 
@@ -149,6 +155,14 @@ p {
   }
 }
 
+// Strain Detail
+
+#strain-detail {
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+
 // Footer
 
 .footer {
@@ -174,4 +188,38 @@ p {
   }
 }
 
+input[type="text"], input[type="button"] {
+  background-color: transparent;
+  border: .2rem solid #fff;
+  font-size: 1rem;
+  padding: .5rem;
+  color: #fff;
+  transition: .3s;
+  
+  &:hover, &:focus {
+    background-color: #fff;
+    color: #333540;
+  }
+}
 
+
+
+
+.next {
+  background-color: transparent;
+  border: .2rem solid #A6B0DD;
+  font-size: 1rem;
+  padding: .5rem;
+  color: #A6B0DD;
+  margin-top: 1rem;
+}
+
+#search {
+  form {
+    display: flex;
+  }
+}
+
+section {
+  margin-bottom: 1rem;
+}
