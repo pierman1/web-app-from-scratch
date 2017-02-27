@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+<header class="header">
+    <h1 class="header__logo logo">Amsterdam Strains</h1>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#strains">Strains</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#search">Search</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+<main class="main-container">
+    <section id="about">
+        <h2>About Amsterdam Strains</h2>
+
+        <p>Amsterdam Strains is all about the different kindes of Cannabis. Not only in Amsterdam but from around the world!</p>
+    </section>
+
+    <section id="search">
+        <h2>Search strains</h2>
+
+        <from>
+            <input type="text" name="strain" class="enter"/>
+            <input type="button" value="click"/>
+        </from>
+    </section>
+
+    <section id="strains">
+        <h2>Strains</h2>
+
+        <ul class="strains-list">
+
+            <li class="strains-list__item">
+
+                <a href="" data-bind="strainLink">
+
+                    <p data-bind="strainTitle"></p>
+
+                </a>
+
+            </li>
+
+        </ul>
+        <!--<button class="next">Next</button>-->
+    </section>
+
+    <section id="strain-detail">
+        <h1 data-bind="strainTitle"></h1>
+        <img data-bind="strainImage" src="">
+
+        <!--<img data-bind="strainQr" src="" alt="">-->
+        <h2>Lineage:</h2>
+        <div id="flag-list">
+        </div>
+    </section>
+</main>
+
+
+
+<footer class="footer">
+    <p>Made by: Pierre Bleeker</p>
+</footer>
+<script src="js/libs/aja.min.js"></script>
+<script src="js/libs/routie.js"></script>
+<script src="js/libs/transparency.min.js"></script>
+<script src="js/libs/underscore.js"></script>
+<!--<script src="js/app2.js"></script>-->
+
+
+<script src="js/modules/routes.js"></script>
+<script src="js/modules/app.js"></script>
+</body>
+</html>

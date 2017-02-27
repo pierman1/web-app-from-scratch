@@ -1,13 +1,14 @@
+'use strict';
+
 (function () {
 
-    'use strict'
 
     // Structures
     var app = {
         init: function () {
             // Fire routes.init();
             routes.init();
-            search.userInput();
+            
         }
     }
 
@@ -29,6 +30,7 @@
                     var hashName = this.path;
                     //  get strainList data
                     strainsList.getData();
+
                     sections.toggle(hashName);
                 },
 
@@ -37,6 +39,7 @@
                     var hashName = this.path;
                     //  get strainList data
                     // strainsList.getData();
+                    search.userInput();
                     sections.toggle(hashName);
                 },
 
@@ -187,17 +190,18 @@
             var currentPage = 1;
 
             nextButton.addEventListener("click", function() {
-                var nextPage = currentPage + 1;
-                pagination.getData(nextPage);
-                console.log(nextPage);
+
+                currentPage =+ 1;
+                pagination.getData(currentPage);
+                console.log(currentPage);
             });
         }
     }
 
     var pagination = {
-        getData: function (nextPage) {
+        getData: function (currentPage) {
             aja()
-                .url('https://www.cannabisreports.com/api/v1.0/strains?page=' + nextPage)
+                .url('https://www.cannabisreports.com/api/v1.0/strains?page=' + currentPage)
                 // .url('./data/strains-data.json')
                 .type('jsonp')
                 .cache('false')
@@ -288,7 +292,7 @@
                         return _.pick(strain, 'ucpc', 'name');
                     });
 
-                        strainsList.renderData(strainsListData);
+                    strainsList.renderData(strainsListData);
 
 
                     // console.log(strainsListData);
@@ -301,6 +305,106 @@
                 .go();
         }
     }
+
+    // var data = {
+    //
+    //     get: function(url){
+    //         aja()
+    //             .url(url)
+    //             .type('jsonp')
+    //             .cache('false')
+    //             .on('success', function(data, properties){
+    //
+    //                 // store data local as string (default is Object)
+    //                 // localStorage.data = JSON.stringify(data);
+    //
+    //                 var dataObj = data.data;
+    //
+    //                 data.render(dataObj);
+    //
+    //
+    //                 // console.log(strainsListData);
+    //             })
+    //             .on('error', function () {
+    //                 console.log('error!');
+    //             })
+    //
+    //             // Go! Aja!
+    //             .go();
+    //     },
+    //
+    //     render: function(params, dataObj) {
+    //
+    //
+    //     // declare target parent for transparancy js
+    //     var target = document.querySelector(params.target);
+    //
+    //     var directives = params.directives;
+    //     console.log(directives);
+    //
+    //     for(var i = 0; i < directives.length; i++){
+    //         console.log(directives[i]);
+    //
+    //     }
+    //     var directivesRender = {
+    //
+    //         init: function(params){
+    //             for(var i = 0; i < directives.length; i++){
+    //                 var directive = {
+    //
+    //                     directives[i].name : {
+    //                     href: function (params) {
+    //                         return  directives[i].returnText + directives[i].property;
+    //                     },
+    //
+    //                 },
+    //
+    //                 }
+    //
+    //
+    //             }
+    //         }
+    //
+    //
+    //     }
+    //
+    //     var directives = directivesRender.init(params);
+    //     //
+    //
+    //     Transparency.render(target, dataObj, directives);
+    //
+    //     }
+    //
+    // }
+    //
+    //
+    // var strains = {
+    //     init: function() {
+    //         var params = {
+    //             target: ".strains-list",
+    //             directives:[
+    //                 {
+    //                     name: "strainTitle",
+    //                     type: "href",
+    //                     returnText: "#strains/",
+    //                     property: "upcp"
+    //                 },
+    //                 {
+    //                     name: "strainText",
+    //                     type: "text",
+    //                     returnText: "",
+    //                     property: ""
+    //                 }
+    //             ]
+    //
+    //         }
+    //
+    //         data.render(params)
+    //     }
+    // }
+    //
+    // strains.init();
+
 
     app.init();
 
