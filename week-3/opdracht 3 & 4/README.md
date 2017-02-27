@@ -14,3 +14,12 @@ Ik maak gebruik van de volgende Micro Libraries:
 - transparancy.js ---> Templating engine
 
 Het resultaat is te zien op: https://goo.gl/5wvk5P
+
+#### Wishlist: 
+
+- Pagination
+- Sorting, alphabetic
+
+
+
+ 
