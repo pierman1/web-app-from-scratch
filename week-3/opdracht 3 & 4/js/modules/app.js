@@ -41,6 +41,7 @@
                     var hashName = this.path;
                     //  get strainList data
                     // strainsList.renderData();
+                    sections.toggle(hashName);
 
                     var inputButton = document.querySelector('input[type="button"]');
 
@@ -48,7 +49,7 @@
 
                         var userInput = document.querySelector('input[type="text"]').value;
                         console.log(userInput);
-                        request.list('https://www.cannabisreports.com/api/v1.0/strains/search/', userInput);
+                        request.list('https://www.cannabisreports.com/api/v1.0/strains/search/', userInput, false);
                     });
                 },
 

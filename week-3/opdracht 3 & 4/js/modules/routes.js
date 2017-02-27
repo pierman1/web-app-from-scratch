@@ -1,4 +1,4 @@
-var routes = {
+var routes = (function {
     init: function () {
         // set hash to #user-search
         window.location.hash = '#about';
