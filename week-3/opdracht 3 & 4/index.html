@@ -27,43 +27,21 @@
     </nav>
 </header>
 
-
-
-
 <main class="main-container">
+    <div class="loader hidden">
+
+    </div>
+
     <section id="about">
         <h2>About Amsterdam Strains</h2>
 
         <p>Amsterdam Strains is all about the different kindes of Cannabis. Not only in Amsterdam but from around the world!</p>
     </section>
 
-    <section id="search">
-        <h2>Search strains</h2>
-
-        <from>
-            <input type="text" name="strain" class="enter"/>
-            <input type="button" value="click"/>
-        </from>
-
-        <ul class="strains-list">
-
-            <li class="strains-list__item">
-
-                <a href="" data-bind="strainLink">
-
-                    <p data-bind="strainTitle"></p>
-
-                </a>
-
-            </li>
-
-        </ul>
-    </section>
-
     <section id="strains">
         <h2>Strains</h2>
 
-        <button class="strains-list__image-filter">
+        <button class="strains-list__image-filter next">
             Show only items with images
         </button>
 
@@ -83,14 +61,41 @@
         <!--<button class="next">Next</button>-->
     </section>
 
+    <section id="search">
+        <h2>Search strains</h2>
+
+        <from>
+            <input type="text" name="strain" class="enter"/>
+            <input type="button" value="click"/>
+        </from>
+
+        <button class="strains-list__image-filter next">
+            Show only items with images
+        </button>
+
+        <ul class="strains-list">
+
+            <li class="strains-list__item">
+
+                <a href="" data-bind="strainLink">
+
+                    <p data-bind="strainTitle"></p>
+
+                </a>
+
+            </li>
+
+        </ul>
+    </section>
+
     <section id="strain-detail">
         <h1 data-bind="strainTitle"></h1>
         <img data-bind="strainImage" src="">
 
         <!--<img data-bind="strainQr" src="" alt="">-->
-        <h2>Lineage:</h2>
-        <div id="flag-list">
-        </div>
+        <!--<h2>Lineage:</h2>-->
+        <!--<div id="flag-list">-->
+        <!--</div>-->
     </section>
 </main>
 

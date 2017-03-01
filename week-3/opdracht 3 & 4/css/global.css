@@ -37,9 +37,6 @@ nav {
     nav a:active, nav a :focus {
       text-decoration: underline; }
 
-.hidden {
-  display: none; }
-
 ul, ol {
   list-style: none;
   margin: 0px;
@@ -79,7 +76,8 @@ p {
 .main-container {
   max-width: 35rem;
   padding: 1rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
   .main-container h2 {
     border-bottom: 2px solid #A6B0DD;
     width: max-content;
@@ -87,16 +85,20 @@ p {
 
 .strains-list {
   display: flex;
-  flex-wrap: wrap; }
-  .strains-list li {
+  flex-wrap: wrap;
+  margin-top: 1rem; }
+  .strains-list .strains-list__item {
     padding: .5rem 1rem;
     border: .2rem solid #fff;
     justify-content: space-between;
     tranistion: .3s; }
-    .strains-list li:hover {
+    .strains-list .strains-list__item:hover {
       background-color: #fff; }
-      .strains-list li:hover a {
+      .strains-list .strains-list__item:hover a {
         color: #333540; }
+
+#strain-detail h1 {
+  margin-bottom: 1rem; }
 
 .footer {
   font-size: .6rem;
@@ -132,7 +134,25 @@ input[type="text"], input[type="button"] {
   margin-top: 1rem; }
 
 #search form {
-  display: flex; }
+  display: flex;
+  margin-bottom: 1rem; }
 
 section {
   margin-bottom: 1rem; }
+
+.loader {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  background-color: #333540;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/loader.gif");
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: 50%;
+  z-index: 2; }
+
+.hidden {
+  display: none; }
