@@ -21,4 +21,4 @@ Resultaat: https://goo.gl/bqlk9N
 
 #### Opdracht 3, 4:
 
-Resultaat: https://goo.gl/5wvk5P
+Resultaat: http://goo.gl/wYEJop

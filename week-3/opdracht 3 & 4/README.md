@@ -13,7 +13,8 @@ Ik maak gebruik van de volgende Micro Libraries:
 - routie.js     ---> Router
 - transparancy.js ---> Templating engine
 
-Het resultaat is te zien op: https://goo.gl/5wvk5P
+Het resultaat is te zien op: http://goo.gl/wYEJop
+
 
 #### Features:
  
