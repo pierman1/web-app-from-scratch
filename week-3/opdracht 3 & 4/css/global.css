@@ -19,7 +19,12 @@ h1, h2, h3, h4, h5 {
 header {
   color: #ffffff;
   padding: 1rem;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  max-width: 35rem;
+  padding: 1rem;
+  margin: 0 auto;
+  position: relative;
+  margin: 1rem auto; }
 
 img {
   width: 100%; }
@@ -76,7 +81,7 @@ p {
 .main-container {
   max-width: 35rem;
   padding: 1rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   position: relative; }
   .main-container h2 {
     border-bottom: 2px solid #A6B0DD;
@@ -156,3 +161,6 @@ section {
 
 .hidden {
   display: none; }
+
+:checked + label {
+  color: red; }

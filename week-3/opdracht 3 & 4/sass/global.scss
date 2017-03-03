@@ -26,6 +26,11 @@ header {
   color: #ffffff;
   padding: 1rem;
   background-repeat: no-repeat;
+  max-width: 35rem;
+  padding: 1rem;
+  margin: 0 auto;
+  position: relative;
+  margin: 1rem auto;
 }
 
 img {
@@ -118,7 +123,7 @@ p {
 .main-container {
   max-width: 35rem;
   padding: 1rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   position: relative;
 
   h2 {
@@ -240,4 +245,8 @@ section {
 
 .hidden {
   display: none;
+}
+
+:checked + label {
+  color: red;
 }

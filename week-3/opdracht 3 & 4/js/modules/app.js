@@ -2,7 +2,6 @@
 
 (function () {
 
-    // Structures
     var config = {
         loaderEl: document.querySelector('.loader'),
         placeholder:'https://www.cannabisreports.com/images/strains/no_image.png',
@@ -12,14 +11,15 @@
         strainUrl:'https://www.cannabisreports.com/api/v1.0/strains/',
         strainsWithImage: []
     }
+
     var store = {
-        list:{}
+        list:{},
+        likedStrains: []
     }
 
     var app = {
         init: function () {
 
-            // Fire routes.init();
             routes.init();
             filter.init();
         }
@@ -36,7 +36,6 @@
 
                     // toggle about section
                     sections.toggle('about');
-
                 },
 
                 'strains' : function () {
@@ -50,14 +49,23 @@
 
                     sections.toggle(hashName);
 
-                    var inputButton = document.querySelector('input[type="button"]');
+                    // searchSubmit button variable
+                    var searchSubmit = document.querySelector('[value="click"]');
 
-                    inputButton.addEventListener('click', function() {
-
-                        var userInput = document.querySelector('input[type="text"]').value;
-                        request.list(config.searchUrl, userInput, false);
-
+                    // searchSubmit eventlistener when clicked send userInput to request.list
+                    searchSubmit.addEventListener('click', function () {
+                       console.log('submit is clicked');
+                       var userInput = document.querySelector('[type="text"]').value;
+                       request.list(config.searchUrl, userInput);
                     });
+                },
+
+                'favorites' : function () {
+                    sections.toggle('favorites');
+                },
+
+                'error' : function () {
+                    sections.toggle('error');
                 },
 
                 'strains/:id' : function (strainId) {
@@ -69,8 +77,6 @@
 
                     request.detail(config.strainUrl, strainId);
                     // sections.toggle('strain-detail');
-
-
                 }
             });
         }
@@ -94,6 +100,8 @@
 
         list: function (url, userInput, filtered) {
 
+            console.log('list is called');
+
             // if userInput is undefined (on search page)
             if(!userInput && !filtered) {
 
@@ -108,16 +116,22 @@
                     .cache('false')
                     .on('success', function (data) {
                         console.log(data);
-                        // map data.data to data
 
+                        // map data.data to data
                         renderData.list(data.data, 'strains');
-                        //sections toggle
+
+                        // store data
                         store.list = data.data;
+                    })
+
+                    .on('error', function (data) {
+                        window.hash.location = '#error'
                     })
 
                     .go();
 
             }
+
             else if (filtered){
 
                 // show loader
@@ -126,8 +140,9 @@
                 var filteredData = store.list.filter(filter.hasImage);
                 renderData.list(filteredData, 'strains');
             }
-                
+
             else {
+                console.log('search called');
                 // show loader
                 loader.show();
 
@@ -164,6 +179,7 @@
                 })
 
                 .go();
+
         }
     }
 
@@ -206,6 +222,15 @@
         
         detail: function (data) {
 
+            // call favorites likes method to
+            var likeButton = document.querySelector('#heart');
+
+            // EventListener if liked
+            likeButton.addEventListener('click', function() {
+                likes.add(data);
+            });
+
+
             // declare target parent for transparency js
             var strain = document.querySelector('#strain-detail');
 
@@ -244,6 +269,57 @@
         }
     }
 
+    var likes = {
+        add: function (strain) {
+
+            var likedStrains = store.likedStrains;
+            likedStrains.push(strain);
+
+            // console.log(likedStrains);
+
+            // filter double strains
+            var uniqueLikes = likedStrains.filter(function (elem, index, self) {
+                return index == self.indexOf(elem);
+            });
+
+            // show count in counter
+            var likedStrainCounter = document.getElementById('count');
+            likedStrainCounter.innerHTML = 'You liked: ' + uniqueLikes.length;
+
+            // map strain names , just for the fun
+            var names = uniqueLikes.map(function (strain) {
+                strain = {name: strain.name};
+                return strain;
+            });
+
+            // move names to Favorites
+            likes.toFavorites(names);
+        },
+
+        toFavorites: function (uniqueLikes) {
+
+            console.log(uniqueLikes);
+            // declare target parent for transparency js
+            var favorite = document.querySelector('.favorites');
+
+            var directives = {
+
+                strainTitle: {
+
+                    text: function (params) {
+                        return this.name;
+                    }
+
+                }
+
+            };
+
+            Transparency.render(favorite, uniqueLikes, directives);
+        }
+
+
+    }
+
     var sections = {
 
         toggle: function (activeSection) {
@@ -260,7 +336,7 @@
 
             // hide loader
 
-            if(activeSection === 'search' || activeSection === 'about' || activeSection === 'strains' || activeSection === 'strain-detail') {
+            if(activeSection === 'search' || activeSection === 'about' || activeSection === 'strains' || activeSection === 'strain-detail' || activeSection === 'favorites') {
                 loader.hide();
 
             } else {
@@ -281,6 +357,9 @@
             config.loaderEl.classList.add('hidden');
         }
     }
+
+    console.log();
+
 
     app.init();
 

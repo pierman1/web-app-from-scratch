@@ -23,6 +23,9 @@
             <li>
                 <a href="#search">Search</a>
             </li>
+            <li>
+                <a href="#favorites">Favorites</a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -69,10 +72,6 @@
             <input type="button" value="click"/>
         </from>
 
-        <button class="strains-list__image-filter next">
-            Show only items with images
-        </button>
-
         <ul class="strains-list">
 
             <li class="strains-list__item">
@@ -92,14 +91,22 @@
         <h1 data-bind="strainTitle"></h1>
         <img data-bind="strainImage" src="">
 
-        <!--<img data-bind="strainQr" src="" alt="">-->
-        <!--<h2>Lineage:</h2>-->
-        <!--<div id="flag-list">-->
-        <!--</div>-->
+        <div id="heart">❤</div>
+
+    </section>
+
+    <section id="favorites">
+        <h2>Favorites</h2>
+        <ul class="favorites">
+            <li data-bind="strainTitle"></li>
+        </ul>
+
+    </section>
+
+    <section id="error">
+        <p>Sorry, to much requests to server.</p>
     </section>
 </main>
-
-
 
 <footer class="footer">
     <p>Made by: Pierre Bleeker</p>
@@ -107,11 +114,6 @@
 <script src="js/libs/aja.min.js"></script>
 <script src="js/libs/routie.js"></script>
 <script src="js/libs/transparency.min.js"></script>
-<script src="js/libs/underscore.js"></script>
-<!--<script src="js/app2.js"></script>-->
-
-
-<!--<script src="js/modules/routes.js"></script>-->
-<script src="js/modules/app.js"></script>
+<script src="js/modules/app-modulair.js"></script>
 </body>
 </html>
