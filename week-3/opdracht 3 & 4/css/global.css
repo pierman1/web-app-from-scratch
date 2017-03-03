@@ -34,7 +34,8 @@ nav {
   position: relative;
   z-index: 2; }
   nav ul {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
     nav ul li {
       text-decoration: underline; }
   nav a {

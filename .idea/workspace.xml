@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b9b86a0-489c-4660-961b-833178dedefe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/README.md" afterPath="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/sass/global.scss" afterPath="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/sass/global.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="global.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/sass/global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="135" column="14" lean-forward="true" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+            <state relative-caret-position="390">
+              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -92,12 +91,15 @@
       <file leaf-file-name="app-modulair.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/js/modules/app-modulair.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="198" column="40" lean-forward="true" selection-start-line="198" selection-start-column="40" selection-end-line="198" selection-end-column="40" />
+            <state relative-caret-position="330">
+              <caret line="439" column="11" lean-forward="true" selection-start-line="439" selection-start-column="11" selection-end-line="439" selection-end-column="11" />
               <folding>
+                <element signature="e#41#658#0" expanded="false" />
                 <element signature="e#689#795#0" expanded="false" />
                 <element signature="e#823#941#0" expanded="false" />
                 <element signature="e#972#2713#0" expanded="false" />
+                <element signature="e#2744#3188#0" expanded="false" />
+                <element signature="e#3220#5780#0" expanded="false" />
                 <element signature="e#5239#5728#0" expanded="false" />
                 <element signature="e#5741#5777#0" expanded="false" />
                 <element signature="e#5811#7678#0" expanded="false" />
@@ -127,12 +129,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -187,10 +189,10 @@
       <find>loader</find>
       <find>count</find>
       <find>you</find>
-      <find>filter</find>
       <find>search</find>
       <find>favorites</find>
       <find>main</find>
+      <find>filter</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -252,9 +254,9 @@
         <option value="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/js/modules/app.js" />
         <option value="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/js/modules/app-modulair.js" />
         <option value="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/index.html" />
-        <option value="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/sass/global.scss" />
         <option value="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/sass/global.scss" />
       </list>
     </option>
   </component>
@@ -543,12 +545,12 @@
       <workItem from="1486461580682" duration="54546000" />
       <workItem from="1486904056578" duration="104273000" />
       <workItem from="1488356905383" duration="80000" />
-      <workItem from="1488357206438" duration="46905000" />
+      <workItem from="1488357206438" duration="47330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214864000" />
+    <option name="totallyTimeSpent" value="215289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="547" y="24" width="893" height="826" extended-state="0" />
@@ -929,29 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/js/modules/app-modulair.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="198" column="40" lean-forward="true" selection-start-line="198" selection-start-column="40" selection-end-line="198" selection-end-column="40" />
-          <folding>
-            <element signature="e#689#795#0" expanded="false" />
-            <element signature="e#823#941#0" expanded="false" />
-            <element signature="e#972#2713#0" expanded="false" />
-            <element signature="e#5239#5728#0" expanded="false" />
-            <element signature="e#5741#5777#0" expanded="false" />
-            <element signature="e#5811#7678#0" expanded="false" />
-            <element signature="e#5860#6639#0" expanded="false" />
-            <element signature="e#6674#7625#0" expanded="false" />
-            <element signature="e#7638#7674#0" expanded="false" />
-            <element signature="e#7708#8999#0" expanded="false" />
-            <element signature="e#7743#8493#0" expanded="false" />
-            <element signature="e#8540#8943#0" expanded="false" />
-            <element signature="e#9032#9808#0" expanded="false" />
-            <element signature="e#9839#10063#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -976,14 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/sass/global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="135" column="14" lean-forward="true" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -998,11 +969,45 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/js/modules/app-modulair.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="439" column="11" lean-forward="true" selection-start-line="439" selection-start-column="11" selection-end-line="439" selection-end-column="11" />
+          <folding>
+            <element signature="e#41#658#0" expanded="false" />
+            <element signature="e#689#795#0" expanded="false" />
+            <element signature="e#823#941#0" expanded="false" />
+            <element signature="e#972#2713#0" expanded="false" />
+            <element signature="e#2744#3188#0" expanded="false" />
+            <element signature="e#3220#5780#0" expanded="false" />
+            <element signature="e#5239#5728#0" expanded="false" />
+            <element signature="e#5741#5777#0" expanded="false" />
+            <element signature="e#5811#7678#0" expanded="false" />
+            <element signature="e#5860#6639#0" expanded="false" />
+            <element signature="e#6674#7625#0" expanded="false" />
+            <element signature="e#7638#7674#0" expanded="false" />
+            <element signature="e#7708#8999#0" expanded="false" />
+            <element signature="e#7743#8493#0" expanded="false" />
+            <element signature="e#8540#8943#0" expanded="false" />
+            <element signature="e#9032#9808#0" expanded="false" />
+            <element signature="e#9839#10063#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-3/opdracht 3 &amp; 4/sass/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
